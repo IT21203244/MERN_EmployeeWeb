@@ -1,0 +1,1144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500,600,500&family=VT323&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #ffffff;
+  
+}
+/*sidebar*/
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.pages{
+  max-width: 900px;
+  padding: 20px;
+  margin: 0 auto;
+}
+header .container{
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #11101d;
+  height: 100%;
+  width: 260px;
+  line-height: 1.5; /* increase line spacing */
+}
+
+.container .cname{
+  font-size: 25px;
+  color: #eee;
+  font-weight: 600;
+  height: 60px;
+  width: 100%;
+  text-align: center;
+  line-height: 1.3; /* increase line spacing */
+}
+
+.container .nav-link{
+  height: 100%;
+  padding-top: 30px;
+}
+
+.container .nav-link li{
+  position: relative;
+  list-style: none;
+  transition: all 0.4s ease;
+}
+
+.container .nav-link li:hover{
+  background: #1d1b31;
+  padding-left: 30px;
+}
+
+.container .nav-link li .navimg img{
+  height: 28px;
+  min-width: 30px;
+  padding-right: 20px;
+}
+
+.container .nav-link .li .a{
+  display: flex;
+  text-align: center;
+}
+
+.container .nav-link li a .sbmenu{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: #eee;
+  text-decoration: none;
+  line-height: 4.8; /* increase line spacing */
+}
+
+.container .profile-details{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 260px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #1d1b31;
+}
+
+.container .profile-details .profile-content{
+  display: flex;
+  align-items: center;
+}
+
+.container .profile-details img{
+  height: 35px;
+  width: 35px;
+  object-fit: cover;
+  border-radius: 16px;
+  margin: 10px 14px 10px 12px;
+  background: #1d1b31;
+  padding: 10px;
+}
+
+.container .profile-details .profile-name{
+  color: #eee;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.container .profile-details .job{
+  color: #eee;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+/*home*/
+
+.home .headbox{
+  position: absolute;
+  width: 900px;
+  left: 400px;
+  background-color: #094162;
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 12px;
+}
+
+.EmployeeProfile .headbox{
+  position: absolute;
+  width: 900px;
+  left: 400px;
+  top: 20px;
+  background-color: #094162;
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 12px;
+}
+.home2 .headbox{
+  position: absolute;
+  width: 900px;
+  left: 400px;
+  top: 20px;
+  background-color: #094162;
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 12px;
+}
+
+.home .headbox h3 {
+  margin: 0;
+  word-spacing: 10px;
+  font-weight: bold;
+  font-style: italic;
+  font-size: larger; 
+  text-align: center;
+  font-size:25px;
+  color: #f1f1f1;
+}
+
+.EmployeeProfile .headbox h3 {
+  margin: 0;
+  word-spacing: 10px;
+  font-weight: bold;
+  font-style: italic;
+  font-size: larger; 
+  text-align: center;
+  font-size:25px;
+  color: #f1f1f1;
+}
+
+.home2 .headbox h3 {
+  margin: 0;
+  word-spacing: 10px;
+  font-weight: bold;
+  font-style: italic;
+  font-size: larger; 
+  text-align: center;
+  font-size:25px;
+  color: #f1f1f1;
+}
+.home .buttonBox .bu1 {
+  position: absolute;
+  top: 160px;
+  left: 28%;
+  display: inline-block;
+  background-color: #cacaca;
+  border-radius: 10px;
+  border-color: #ffffff;
+  box-shadow: 6px 6px 3px #aaaaaa;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  width: 380px;
+  height: 200px;
+
+  transition-duration: 0.4s;
+}
+
+.home .buttonBox .bu1:hover{
+  background-color: #cacaca;
+  color: aliceblue;
+}
+
+.home .buttonBox .bu1 img {
+  position: absolute;
+  left: 65px;
+  top: 80px;
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.home .buttonBox .bu1 h4 {
+  color: #2b2c2d;
+  margin: 0;
+  font-size: 20px;
+  position: absolute;
+  left: 150px;
+  top: 88px;
+}
+
+.home .buttonBox .bu2 {
+  position: absolute;
+  top: 160px;
+  left: 60%;
+  display: inline-block;
+  background-color: #cacaca;
+  border-radius: 10px;
+  border-color: #ffffff;
+  box-shadow: 6px 6px 3px #aaaaaa;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  width: 380px;
+  height: 200px;
+
+  transition-duration: 0.4s;
+}
+
+.home .buttonBox .bu2:hover{
+  background-color: #d3e1f1;
+  color: aliceblue;
+}
+
+.home .buttonBox .bu2 img {
+  position: absolute;
+  left: 65px;
+  top: 80px;
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.home .buttonBox .bu2 h4 {
+  color: #2b2c2d;
+  margin: 0;
+  font-size: 20px;
+  position: absolute;
+  left: 140px;
+  top: 88px;
+}
+
+.home .buttonBox .bu3 {
+  position: absolute;
+  top: 400px;
+  left: 28%;
+  display: inline-block;
+  background-color: #cacaca;
+  border-radius: 10px;
+  border-color: #ffffff;
+  box-shadow: 6px 6px 3px #aaaaaa;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  width: 380px;
+  height: 200px;
+
+  transition-duration: 0.4s;
+}
+
+.home .buttonBox .bu3:hover{
+  background-color: #d3e1f1;
+  color: aliceblue;
+}
+
+.home .buttonBox .bu3 img {
+  position: absolute;
+  left: 65px;
+  top: 80px;
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.home .buttonBox .bu3 h4 {
+  color: #2b2c2d;
+  margin: 0;
+  font-size: 20px;
+  position: absolute;
+  left: 130px;
+  top: 94px;
+}
+
+.home .buttonBox .bu3 h5 {
+  color: #2b2c2d;
+  margin: 0;
+  font-size: 14px;
+  position: absolute;
+  left: 130px;
+  top: 119px;
+}
+
+.home .buttonBox .bu4 {
+  position: absolute;
+  top: 400px;
+  left: 60%;
+  display: inline-block;
+  background-color: #cacaca;
+  border-radius: 10px;
+  border-color: #ffffff;
+  box-shadow: 6px 6px 3px #aaaaaa;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  width: 380px;
+  height: 200px;
+
+  transition-duration: 0.4s;
+}
+
+.home .buttonBox .bu4:hover{
+  background-color: #d3e1f1;
+  color: aliceblue;
+}
+
+.home .buttonBox .bu4 img {
+  position: absolute;
+  left: 85px;
+  top: 80px;
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.home .buttonBox .bu4 h4 {
+  color: #2b2c2d;
+  margin: 0;
+  font-size: 20px;
+  position: absolute;
+  left: 160px;
+  top: 92px;
+}
+
+.home .buttonBox .bu4 h5 {
+  color: #2b2c2d;
+  margin: 0;
+  font-size: 14px;
+  position: absolute;
+  left: 189px;
+  top: 119px;
+}
+
+.home .buttonBox .bu5 {
+  position: absolute;
+  top: 640px;
+  left: 60%;
+  display: inline-block;
+  background-color: #cacaca;
+  border-radius: 10px;
+  border-color: #ffffff;
+  box-shadow: 6px 6px 3px #aaaaaa;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  width: 380px;
+  height: 200px;
+
+  transition-duration: 0.4s;
+}
+
+.home .buttonBox .bu5:hover{
+  background-color: #d3e1f1;
+  color: aliceblue;
+}
+
+.home .buttonBox .bu5 img {
+  position: absolute;
+  left: 85px;
+  top: 80px;
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.home .buttonBox .bu5 h4 {
+  color: #2b2c2d;
+  margin: 0;
+  font-size: 20px;
+  position: absolute;
+  left: 160px;
+  top: 92px;
+}
+
+.home .buttonBox .bu5 h5 {
+  color: #2b2c2d;
+  margin: 0;
+  font-size: 14px;
+  position: absolute;
+  left: 189px;
+  top: 119px;
+}
+.home .buttonBox .bu6 {
+  position: absolute;
+  top: 640px;
+  left: 28%;
+  display: inline-block;
+  background-color: #cacaca;
+  border-radius: 10px;
+  border-color: #ffffff;
+  box-shadow: 6px 6px 3px #aaaaaa;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  width: 380px;
+  height: 200px;
+
+  transition-duration: 0.4s;
+}
+
+.home .buttonBox .bu6:hover{
+  background-color: #d3e1f1;
+  color: aliceblue;
+}
+
+.home .buttonBox .bu6 img {
+  position: absolute;
+  left: 65px;
+  top: 80px;
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.home .buttonBox .bu6 h4 {
+  color: #2b2c2d;
+  margin: 0;
+  font-size: 20px;
+  position: absolute;
+  left: 140px;
+  top: 90px;
+}
+
+.home .buttonBox .bu6 h5 {
+  color: #2b2c2d;
+  margin: 0;
+  font-size: 14px;
+  position: absolute;
+  left: 189px;
+  top: 190px;
+}
+
+
+.profile {
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  background-color: #cacaca;
+  padding: 0 20px;
+}
+
+.avatar {
+  margin-right: 8px;
+}
+
+.avatar img {
+  position: absolute;
+  top: 30px;
+  right: 70px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.profile .dropbtn{
+  position: absolute;
+  top: 21px;
+  right: 22px;
+  width: 0px;
+  height: 0px;
+  color: #cacaca;
+  border-color: #cacaca;
+}
+
+.profile .dropbtn img{
+  position: absolute;
+  top: 0;
+  right: 0px;
+  width: 15px;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 30spx;
+  right: 0;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  min-width: 160px;
+  z-index: 1;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+  color: #333;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*EmployeeProfile*/
+
+.home{
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 100px;
+}
+
+.Employee-Details{
+  position: absolute;
+  top: 180px;
+  left: 90px;
+  margin: 25px auto;
+  background: #cacaca;
+  border-radius: 4px;
+  padding: 20px;
+  height: 250px;
+  position: relative;
+  box-shadow: 6px 6px 3px rgba(0,0,0,0.05);
+}
+
+.Employee-Details h4{
+  margin: 0 20px 20px 0;
+  font-size: 1.2em;
+  color: var(--primary);
+  color: #1aac83;
+
+}
+
+.Employee-Details p{
+  margin: 10px 0 0 35px;
+  position: relative;
+  left: 230px;
+  bottom: 190px;
+  font-size: 0.9em;
+  color: #555;
+}
+.Employee-Details span{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  background: #f1f1f1;
+  padding: 6px;
+  border-radius: 50%;
+  color: #333;
+}
+
+
+/*EmployeeRegister*/
+.home2 .headbox{
+  position: absolute;
+  width: 900px;
+  left: 400px;
+  background-color: #094162;
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 12px;
+}
+
+.home2 .headbox h3 {
+  margin: 0;
+  word-spacing: 10px;
+  font-weight: bold;
+  font-style: italic;
+  font-size: larger; 
+  text-align: center;
+  font-size:25px;
+  color: #f1f1f1;
+}
+
+label, input {
+  font-weight: 500;
+  font-size: large;
+  color: #2F4050;
+  display: block;
+  position: relative;
+  left: 98px;
+  top: 135px;
+}
+
+input{
+  padding: 25px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 150%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+form button {
+  position: absolute;
+  top: 1350px;
+  left: 406px;
+  background-color: #094162;
+  border: 0;
+  color: #f1f1f1;
+  padding: 12px;
+  width: 120px;
+  font-family: "Poppins";
+  font-weight: bold;
+  font-size: large;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+div.error {
+  padding: 12px;
+  background: #ffefef;
+  border: 1px solid tomato;
+  color: tomato;
+  border-radius: 4px;
+  margin: 20px 0;
+}
+
+.create .form-head{
+  position: absolute;
+  top: 90px;
+  left: 770px;
+  font-size: 19px;
+  font-weight: bold;
+}
+
+form .just{
+  color: #cacaca;
+  top: 1400px;
+  background-color: #cacaca;
+}
+
+/*error handler*/
+input .error{
+  border: 1px solid tomato;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+input[type="text"] {
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 0px 5px #ccc;
+}
+button {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #3e8e41;
+}
+#result {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+
+
+/*EmployeeSlary*/
+.home3 .headbox{
+  position: absolute;
+  width: 900px;
+  left: 400px;
+  background-color: #094162;
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 12px;
+}
+.home3 .head3 h3{
+  position: absolute;
+  width: 400px;
+  left: 400px;
+  top: 200px;
+  background-color: #094162;
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 12px;
+}
+
+.home3 .headbox h3 {
+  margin: 0;
+  word-spacing: 10px;
+  font-weight: bold;
+  font-style: italic;
+  font-size: larger; 
+  text-align: center;
+  font-size:25px;
+  color: #f1f1f1;
+}
+
+.home3 .headbox h3 {
+  margin: 0;
+  word-spacing: 10px;
+  font-weight: bold;
+  font-style: italic;
+  font-size: larger; 
+  text-align: center;
+  font-size:25px;
+  color: #f1f1f1;
+}
+
+.home3 .plog h3{
+  position: absolute;
+  top: 120px;
+  left: 750px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+
+.create2 .form-head2{
+  position: absolute;
+  top: 90px;
+  left: 720px;
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.create2 .l1 label{
+  font-weight: 500;
+  font-size: large;
+  color: #2F4050;
+  display: block;
+  position: absolute;
+  left: 438px;
+  top: 225px;
+}
+
+.create2 .l1 input{
+  position: absolute;
+  left: 338px;
+  top: 250px;
+  width: 150px;
+}
+
+.create2 .jb0 label{
+  font-weight: 500;
+  font-size: large;
+  color: #2F4050;
+  display: block;
+  position: absolute;
+  left: 338px;
+  top: 200px;
+}
+
+.create2 .jb0 input{
+  position: absolute;
+  left: 338px;
+  top: 225px;
+  width: 225px;
+}
+
+.create2 .jb1 label{
+  font-weight: 500;
+  font-size: large;
+  color: #2F4050;
+  display: block;
+  position: absolute;
+  left: 600px;
+  top: 200px;
+}
+
+.create2 .jb1 input{
+  position: absolute;
+  width: 225px;
+  left: 600px;
+  top: 225px;
+}
+
+.create2 .jb2 label{
+  font-weight: 500;
+  font-size: large;
+  color: #2F4050;
+  display: block;
+  position: absolute;
+  left: 860px;
+  top: 200px;
+}
+
+.create2 .jb2 input{
+  position: absolute;
+  width: 225px;
+  left: 860px;
+  top: 225px;
+}
+
+.create2 .jb3 label{
+  font-weight: 500;
+  font-size: large;
+  color: #2F4050;
+  display: block;
+  position: absolute;
+  left: 1120px;
+  top: 200px;
+}
+
+.create2 .jb3 input{
+  position: absolute;
+  left: 1120px;
+  top: 225px;
+  width: 225px;
+}
+
+.create2 .jb4 label{
+  font-weight: 500;
+  font-size: large;
+  color: #2F4050;
+  display: block;
+  position: absolute;
+  left: 338px;
+  top: 305px;
+}
+
+.create2 .jb4 input{
+  position: absolute;
+  left: 338px;
+  top: 330px;
+  width: 225px;
+}
+
+.create2 .jb5 label{
+  font-weight: 500;
+  font-size: large;
+  color: #2F4050;
+  display: block;
+  position: absolute;
+  left: 600px;
+  top: 305px;
+}
+
+.create2 .jb5 input{
+  position: absolute;
+  left: 600px;
+  top: 330px;
+  width: 225px;
+}
+
+.create2 .jb6 label{
+  font-weight: 500;
+  font-size: large;
+  color: #2F4050;
+  display: block;
+  position: absolute;
+  left: 860px;
+  top: 305px;
+}
+
+.create2 .jb6 input{
+  width: 225px;
+  position: absolute;
+  left: 860px;
+  top: 330px;
+}
+
+.create2 .jb7 label{
+  font-weight: 500;
+  font-size: large;
+  color: #2F4050;
+  display: block;
+  position: absolute;
+  left: 1120px;
+  top: 305px;
+}
+
+.create2 .jb7 input{
+  position: absolute;
+  left: 1120px;
+  top: 330px;
+  width: 225px;
+}
+
+.create2 .jb8 label{
+  font-weight: 500;
+  font-size: large;
+  color: #2F4050;
+  display: block;
+  position: absolute;
+  left: 338px;
+  top: 410px;
+}
+
+.create2 .jb8 input{
+  position: absolute;
+  left: 338px;
+  top: 435px;
+  width: 225px;
+}
+
+.create2 .jb9 label{
+  font-weight: 500;
+  font-size: large;
+  color: #2F4050;
+  display: block;
+  position: absolute;
+  left: 600px;
+  top: 410px;
+}
+
+.create2 .jb9 input{
+  position: absolute;
+  left: 600px;
+  top: 435px;
+  width: 225px;
+}
+
+.create2 .jb10 label{
+  font-weight: 500;
+  font-size: large;
+  color: #2F4050;
+  display: block;
+  position: absolute;
+  left: 860px;
+  top: 410px;
+}
+.create2 .jb10 input{
+  position: absolute;
+  left: 860px;
+  top: 435px;
+  width: 225px;
+
+}
+
+form .salaryb1 button{
+  position: absolute;
+  top: 550px;
+  width: 200px;
+  left: 340px;
+}
+
+.home .just{
+  color: #cacaca;
+  position: absolute;
+  top: 920px;
+  background-color: #cacaca;
+  border: #cacaca;
+}
+
+.eimage img{
+  position: relative;
+  left: 5px;
+  margin: 20px;
+  width: 170px;
+  height: 170px;
+}
+
+/*EmployeeSalary*/
+
+.home{
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 100px;
+}
+
+.Employee-Details1{
+  position: absolute;
+  top: 180px;
+  left: 90px;
+  margin: 25px auto;
+  background: #cacaca;
+  border-radius: 4px;
+  padding: 20px;
+  height: 150px;
+  position: relative;
+  box-shadow: 6px 6px 3px rgba(0,0,0,0.05);
+}
+
+.Employee-Details1 h4{
+  margin: 0 20px 20px 0;
+  font-size: 1.2em;
+  color: var(--primary);
+  color: #1aac83;
+
+}
+
+.Employee-Details1 p{
+  margin: 10px 0 0 35px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20%;
+  position: relative;
+  left: 2px;
+  font-size: 0.9em;
+  color: #555;
+}
+.Employee-Details1 span{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  background: #f1f1f1;
+  padding: 6px;
+  border-radius: 50%;
+  color: #333;
+}
+
+
+
+
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="time"] {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+button[type="submit"] {
+  display: block;
+  padding: 0.375rem 0.75rem;
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #fff;
+  background-color: #007bff;
+  border: 1px solid #007bff;
+  border-radius: 0.25rem;
+  transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.5);
+}
+
+
+/*Attendance list*/
+
+.home6 .plog h3{
+  position: absolute;
+  top: 100px;
+  left: 750px;
+  font-size: 25px;
+  font-weight: bold;
+}  
+  
+.ledview  .just{
+  color: #e8eee1;
+  border: #e8eee1;
+  background-color: #e8eee1;
+}
+
+.mtable{
+  position: relative;
+  top: 160px;
+  left: 10px;
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 1092px;
+}
+
+
+
+.mtable th{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: medium;
+  color: #acd4ed;
+  padding: 8px;
+  text-align: left;
+  border: 1px solid rgb(255, 253, 253);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 800;
+}
+
+.mtable td {
+  font-size: small;
+  background-color: #2b2c2d;
+  color: #eee;
+  font-weight: 500;
+  padding: 12px;
+  text-align: left;
+  border: 1px solid rgb(255, 253, 253);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.mtable th {
+  background-color: #535455;
+}
+
+.mtable tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
